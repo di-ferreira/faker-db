@@ -1,42 +1,4 @@
 {
-    "cash_register": [
-        {
-            "id": 1,
-            "title": "Entrada 01",
-            "value": 1500.00,
-            "inflows": true,
-            "created_at": "2021-04-23 00:00:00",
-            "updated_at": "2021-04-23 00:00:00",
-            "user_id": 1
-        },
-        {
-            "id": 2,
-            "title": "Entrada 02",
-            "value": 900.00,
-            "inflows": true,
-            "created_at": "2021-05-05 00:00:00",
-            "updated_at": "2021-05-10 00:00:00",
-            "user_id": 2
-        },
-        {
-            "id": 3,
-            "title": "Saida 01",
-            "value": 800.00,
-            "inflows": false,
-            "created_at": "2021-04-25 00:00:00",
-            "updated_at": "2021-04-25 00:00:00",
-            "user_id": 1
-        },
-        {
-            "id": 4,
-            "title": "Saida 02",
-            "value": 500.00,
-            "inflows": false,
-            "created_at": "2021-05-31 00:00:00",
-            "updated_at": "2021-05-31 00:00:00",
-            "user_id": 2
-        }
-    ],
     "users": [
         {
             "id": 1,
@@ -53,6 +15,46 @@
             "password": "0123456",
             "created_at": "2021-04-05 00:00:00",
             "updated_at": "2021-04-20 00:00:00"
+        },
+        {
+            "id": 3,
+            "name": "User",
+            "email": "user@mail.com",
+            "password": "0123456",
+            "created_at": "2021-07-08 00:00:00",
+            "updated_at": "2021-07-08 00:00:00"
+        }
+    ],
+    "users_details": [
+        {
+            "id": 1,
+            "birthdate": "0000-00-00",
+            "phone": "(22) 98473-7892",
+            "website": "www.admin.com",
+            "address": "Estrada de Praia Seca 13195 Praia Seca Araruama RJ",
+            "status": "Employed",
+            "avatar": "https://ui-avatars.com/api/?size=128&background=random&name=Admin",
+            "userId": 1
+        },
+        {
+            "id": 2,
+            "birthdate": "1987-03-03",
+            "phone": "(22) 98687-2466",
+            "website": "www.diego.com",
+            "address": "Avenida Getúlio Vargas 1425 casa B Centro Araruama RJ",
+            "status": "Freelancer",
+            "avatar": "https://ui-avatars.com/api/?size=128&background=random&name=Diego",
+            "userId": 2
+        },
+        {
+            "id": 1,
+            "birthdate": "1984-09-10",
+            "phone": "(41) 98857-6655",
+            "website": "www.user.com",
+            "address": "Rua Ernesto José de Paula 882 São Marcos São José dos Pinhais PR",
+            "status": "Unemployed",
+            "avatar": "https://ui-avatars.com/api/?size=128&background=random&name=User",
+            "userId": 3
         }
     ]
 }
