@@ -2,27 +2,93 @@
     "users": [
         {
             "id": 1,
-            "name": "admin",
-            "email": "admin@mail.com",
-            "password": "admin",
-            "created_at": "2021-03-05 00:00:00",
-            "updated_at": "2021-03-20 00:00:00"
+            "nome": "admin",
+            "bloqueado": true,
+            "vendedor": "ana paula",
+            "bairro": "vila são sebastião",
+            "cidade": "duque de caxias",
+            "ultima_compra": "2021-03-05 00:00:00"
         },
         {
             "id": 2,
-            "name": "Diego Ferreira",
-            "email": "diego@mail.com",
-            "password": "0123456",
-            "created_at": "2021-04-05 00:00:00",
-            "updated_at": "2021-04-20 00:00:00"
+            "nome": "Diego Ferreira",
+            "bloqueado": true,
+            "vendedor": "pedro marcelo",
+            "bairro": "colégio",
+            "cidade": "rio de janeiro",
+            "ultima_compra": "2021-03-05 00:00:00"
         },
         {
             "id": 3,
-            "name": "User",
-            "email": "user@mail.com",
-            "password": "0123456",
-            "created_at": "2021-07-08 00:00:00",
-            "updated_at": "2021-07-08 00:00:00"
+            "nome": "Claudio Claro",
+            "bloqueado": false,
+            "vendedor": "luís marcelo",
+            "bairro": "vista alegre",
+            "cidade": "são gonçalo",
+            "ultima_compra": "2021-03-05 00:00:00"
+        },
+        {
+            "id": 4,
+            "nome": "antônio",
+            "bloqueado": false,
+            "vendedor": "ana claudia",
+            "bairro": "vila do joão",
+            "cidade": "rio de janeiro",
+            "ultima_compra": "2021-03-05 00:00:00"
+        },
+        {
+            "id": 5,
+            "nome": "pablo",
+            "bloqueado": true,
+            "vendedor": "marcelo",
+            "bairro": "humaitá",
+            "cidade": "rio de janeiro",
+            "ultima_compra": "2021-03-05 00:00:00"
+        },
+        {
+            "id": 6,
+            "nome": "Paula Lima",
+            "bloqueado": false,
+            "vendedor": "luís carlos",
+            "bairro": "vista alegre",
+            "cidade": "são gonçalo",
+            "ultima_compra": "2021-03-05 00:00:00"
+        },
+        {
+            "id": 7,
+            "nome": "francisco",
+            "bloqueado": true,
+            "vendedor": "ana claudia",
+            "bairro": "vilar dos teles",
+            "cidade": "são joão de meriti",
+            "ultima_compra": "2021-03-05 00:00:00"
+        },
+        {
+            "id": 8,
+            "nome": "genivaldo",
+            "bloqueado": false,
+            "vendedor": "marcelo",
+            "bairro": "fazendinha",
+            "cidade": "araruama",
+            "ultima_compra": "2021-03-05 00:00:00"
+        },
+        {
+            "id": 9,
+            "nome": "débora",
+            "bloqueado": false,
+            "vendedor": "luís carlos",
+            "bairro": "clube dos engenheiros",
+            "cidade": "araruama",
+            "ultima_compra": "2021-03-05 00:00:00"
+        },
+        {
+            "id": 10,
+            "nome": "pedro",
+            "bloqueado": false,
+            "vendedor": "luís miguel",
+            "bairro": "ponte dos leites",
+            "cidade": "araruama",
+            "ultima_compra": "2021-03-05 00:00:00"
         }
     ],
     "users_details": [
